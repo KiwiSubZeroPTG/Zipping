@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bloxluck Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Bloxluck Predictor</h1>
+        <div class="prediction-box">
+            <p>Next: <span id="prediction">-</span></p>
+            <div class="confidence-meter">
+                <div id="confidence-fill"></div>
+            </div>
+        </div>
+        <div class="stats-box">
+            <p>Accuracy: <span id="accuracy">-</span>%</p>
+            <p>Streak: <span id="streak">-</span></p>
+            <p>Last 10: <span id="last10">-</span></p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

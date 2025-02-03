@@ -1,0 +1,6 @@
+{
+  "website_url": "https://bloxluck.com",
+  "check_interval": 5,     // Seconds between checks (randomized ±2s)
+  "max_history": 100,      // Max outcomes to store
+  "stealth_mode": true     // Anti-detection measures
+}
